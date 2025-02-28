@@ -1,0 +1,37 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .starship-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns as shown in the image */
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .starship-card {
+    background-color: #4a6d6e; /* Dark teal from the image */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    min-height: 80px; /* Ensure consistent height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .starship-card:hover {
+    background-color: #3d5c5d; /* Slightly darker on hover for interactivity */
+  }
